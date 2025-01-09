@@ -38,7 +38,7 @@ void main() {
 
     await tester.tap(inputField);
     await tester.pumpAndSettle();
-    await tester.enterText(inputField, 'Alice');
+    await tester.enterText(inputField, 'Alice2');
     await tester.testTextInput.receiveAction(TextInputAction.done);
     await tester.pump();
     await tester.dragUntilVisible(addNameButton,
