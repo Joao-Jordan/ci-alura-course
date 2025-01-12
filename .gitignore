@@ -42,3 +42,4 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+firebase/cd-app-distribution-key/cd-alura-eb86f-151a6e4ecbf1.json
